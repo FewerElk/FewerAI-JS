@@ -4,7 +4,7 @@ var username = 'your username'
 var password = 'your password'
 var questiontoai = 'your question/request (utf-8)'
 
-var params = username + "%" + pasword + "%" + questiontoai;
+var params = username + "%" + password + "%" + questiontoai;
 xhr.open("POST", "http://n1.recloud-hosting.me:1123/api", true);
 
 
