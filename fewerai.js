@@ -79,7 +79,7 @@ function create_session(uname, token, request) {
 // For future release - DO NOT USE
 function generate_with_session(uname, token, request, sessionID) {
   var params = uname + "%" + token + "%2%" + request + "%" + sessionID;
-  xhr.open("POST", "http://n1.recloud-hosting.me:1123/api/session", true);
+  xhr.open("POST", "http://n1.recloud-hosting.me:1107/api/session", true);
   
   
   xhr.onload = () => {
